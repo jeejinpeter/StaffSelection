@@ -1,0 +1,424 @@
+body{background-color:#ffffff;font-family:'Raleway', sans-serif;}
+
+/*General Styles*/
+.float-left{float:left;}
+.right-align{text-align:right;}
+.center-align{text-align:center;}
+label{line-height:40px;}
+.important{background:#f00;padding:3px;border-radius:2px;color:#fff;}
+.blue-color{color:#2a9dd6;}
+.red-color{color:#ff0000;}
+.dark-border{border:2px solid #2a9dd6;}
+.error_message{color:red;}
+table tr td{border:2px solid #2a9dd6;padding:10px 15px;}
+.form-control{border-radius:0px;font-family:'Raleway', sans-serif;}
+button{background-color:#1dacfb;font-family:'Raleway', sans-serif !important;font-weight:normal;border-color:rgba(0,0,0,0)!important;}
+.color-one{color:#1dacfb;}
+.instructions ul  li{line-height:26px;font-size:16px;margin-bottom:15px;text-align:justify;}
+
+
+/*Login Page*/
+.login-content-wrapper{position:relative;background:url('../images/login_banner.jpg');background-repeat:no-repeat;background-size:cover;width:100%;height:100vh !important;background-position:center;}
+.dark_overlay{background-color:rgba(0,0,0,0.4);width:100%;height:100%;z-index:0;position:fixed;top:0px;left:0px;}
+.login-form-wrapper{background-color:#ffffff;position:absolute;z-index:10;padding:30px 30px 40px;top:50%;margin-top:-230px;box-shadow:0px 3px 5px #000000;}
+.login-form-wrapper #remember_me{float:left;text-align:left;width:auto;}
+.login-form-wrapper .checkbox label{line-height:20px;}
+.login-form-wrapper h2{font-size:18px;color:#4f4f4f;}
+.login-form-wrapper .checkbox{margin-top:0px;}
+.login-form-wrapper h1{font-size:32px;margin-top:0px;}
+.login-form-wrapper a button{width:100%;}
+
+.body-content-wrapper{position:fixed;background:url('../images/login_banner.jpg');background-repeat:no-repeat;background-size:cover;width:100%;height:100vh !important;background-position:center;}
+.main-wrapper{z-index:999;}
+.main-content-wrapper-inner{position:relative;margin-top:130px;margin-bottom:50px;background-color:#ffffff;box-shadow:0px 3px 5px #000000;padding-top:20px;}
+
+
+header{position:fixed;width:100%;height:80px;overflow:hidden;background-color:#3d3d3d;z-index:999;}
+header .logo{margin-top:11px;margin-right:15px;width:60px;}
+header h1, header p{color:#dfdfdf;text-align:center;}
+header h1{color:#dfdfdf;font-size:28px;font-weight:bold;margin-top:11px;line-height:60px;text-align:left;text-transform:uppercase;}
+header h1 span{font-size:16px;font-weight:normal;}
+header p{font-size:18px;margin-top:0px;line-height:18px;text-align:left;}
+header p.affiliate{font-size:12px;margin-top:38px;font-weight:bold;text-align:right;}
+header p.affiliate span{color:#dfdfdf;}
+header .mother{position:absolute;right:0px;background:url(../images/mother.png) no-repeat;background-size:cover;width:120px;height:142px;bottom:0px;}
+
+nav{width:100%;height:60px;background-color:#1DACFB;}
+
+.login-wrapper{border:1px solid #adadad;padding:15px;background-color:#fdfdfd;}
+
+.page-title-section{/*background-color:#2A9DD6;*/padding-top:0px;padding-bottom:10px;}
+.page-title-section h1{color:#000000;font-size:24px;font-weight:bold;text-transform:uppercase;}
+
+.page-content-section{padding:0px 0px 50px;}
+.page-content-section .admission-link a{font-size:24px;}
+.page-content-section h4{line-height:1.5;}
+.appid{float: left;width: 50%;}
+.page-content-section .right-align{text-align: right;}
+.page-content-section form .input-group{width:100%;}
+.page-content-section form .input-group span{border-radius:0px;border:1px solid #098594;border-right:0px;background-color:#ededed;width:50px;}
+
+/*.page-content-section form .input-group,*/ .page-content-section form input[type="text"], .page-content-section form input[type="password"], .page-content-section form input[type="email"], .page-content-section form select{box-shadow:none;height:40px;background-color:#ffffff;border:1px solid #098594;border-radius:0px;}
+.page-content-section form .input-group{margin-bottom:20px;}
+.page-content-section form.application-ref-form input[type="text"],
+.page-content-section form.application-ref-form input[type="email"],
+.page-content-section form.application-ref-form input[type="tel"],
+.page-content-section form.application-ref-form input[type="number"],
+.page-content-section form.application-ref-form select
+{box-shadow:none;height:40px;background-color:#ffffff;border:1px solid #098594;border-radius:0px;margin-bottom:10px;}
+
+.page-content-section form input:focus, .page-content-section form select:focus, .form-control:focus{box-shadow:none;border:1px solid#adadad;}
+.page-content-section form button{height:40px;background:none;background-color:#1DACFB;text-transform:uppercase;color:#ffffff;border:0px;font-size:16px;}
+.page-content-section form button:hover{background-color:#046093;color:#ffffff;-webkit-transition: 0.2s linear;-moz-transition: 0.2s linear;transition: 0.2s linear;}
+.page-content-section form input-group input:focus > .page-content-section form .input-group span{background-color:#adadad;color:#ffffff;}
+
+footer{padding:50px 0px;background:#053667;position:relative;bottom:0px;}
+footer p{text-align:center;font-size:13px;color:#ffffff;}
+.checkbox-inline input[type=checkbox]{width: 10% !important;margin-right: -30px;}
+.checkbox-inline input#permit_auth_check{width: 0% !important;right:none;left:20px;}
+
+/*Multi Step Form Style*/
+
+/*form styles*/
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+#msform ul{padding-left:0px;}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    /*box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);*/
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0 5%;
+
+   /* stacking fieldsets above each other*/
+    position: relative;
+}
+
+/*Hide all except first fieldset
+*/#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+/*inputs*/
+#msform input[type="text"],#msform input[type="email"],#msform input[type="number"],#msform input[type="tel"], #msform textarea {
+
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 16px;
+    font-family: inherit !important;
+    border: 1px solid #098594;
+}
+
+#msform input:focus, #msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #2A9DD6;
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+/*buttons*/
+#msform .action-button {
+    width: 100px;
+    background: #2A9DD6;
+    font-size:20px;
+    font-weight: bold;
+    text-transform:uppercase;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button:hover, #msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #2A9DD6;background-color:#046093;-webkit-transition: 0.2s linear;-moz-transition: 0.2s linear;transition: 0.2s linear;}
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #C5C5F1;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button-previous:hover, #msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;
+}
+
+/*headings*/
+.fs-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/*progressbar*/
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    CSS counters to number the steps
+    counter-reset: step;
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: #8d8d8d;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 16.66%;
+    float: left;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    font-size: 22px;
+    color: #878787;
+    background: white;
+    border-radius: 25px;
+    margin: 0 auto 10px auto;
+}
+
+/*progressbar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: -50%;
+    top: 19px;
+    z-index: -1; /*put it behind the numbers*/
+}
+
+#progressbar li:first-child:after {
+    /*/*connector not needed before the first step*/
+    content: none;
+}
+
+/*marking active/completed steps green
+The number of the step and the connector before it = green*/
+#progressbar li.active:before, #progressbar li.active:after {
+    background: #2A9DD6;
+    color: white;
+}
+
+
+//* multiple step registration styles*/
+.form-box{}
+.f1 {
+    background:transparent;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+.f1 h3 { margin-top: 0; margin-bottom: 5px; text-transform: uppercase; }
+
+.f1-steps { overflow: hidden; position: relative; margin: 20px 0 0px 0; }
+
+.f1-progress { position: absolute; top: 24px; left: 0; width: 100%; height: 1px; background: #ddd; }
+.f1-progress-line { position: absolute; top: 0; left: 0; height: 1px; background: #2A9DD6; }
+
+.f1-step { position: relative; float: left; width: 16.66%; padding: 0 5px; }
+.application-ref-form .f1-step {width: 14.28%;}
+
+.f1-step-icon {
+    display: inline-block; width: 40px; height: 40px; margin-top: 4px; background: #6f7070;
+    font-size: 16px; color: #fff; line-height: 40px;
+    -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
+}
+.f1-step-icon i{font-style: inherit;}
+.f1-step.activated .f1-step-icon {
+    background: #fff; border: 1px solid #2A9DD6; color: #2A9DD6; line-height: 38px;
+}
+.f1-step.active .f1-step-icon {
+    width: 48px; height: 48px; margin-top: 0; background: #2A9DD6; font-size: 22px; line-height: 48px;
+}
+
+.f1-step p { color: #6f7070; }
+.f1-step.activated p { color: #2A9DD6; }
+.f1-step.active p { color: #2A9DD6; }
+
+.f1 fieldset { display: none; text-align: left; }
+
+.f1-buttons { text-align: center; }
+ .body {background-color: #f1f1f1;}
+#regForm {background-color: #ffffff;margin: 100px auto;font-family: Raleway;padding: 40px;width: 70%;min-width: 300px;}
+h1 {text-align: center;}
+input {padding: 10px;width: 100%;font-size: 17px;font-family: Raleway;border: 1px solid #aaaaaa;}
+/*/* Mark input boxes that gets an error on validation: */
+input.invalid {background-color: #ffdddd;}
+/*/* Hide all steps by default: */
+.tab {display: none;}
+button {background-color: #4CAF50;color: #ffffff;border: none;padding: 10px 20px;font-size: 17px;font-family: Raleway;cursor: pointer;}
+button:hover {opacity: 0.8;}
+#prevBtn {background-color: #bbbbbb;}
+/*/* Make circles that indicate the steps of the form:*/ 
+.step {height: 15px;width: 15px;margin: 0 2px;background-color: #bbbbbb;border: none;border-radius: 50%;display: inline-block;opacity: 0.5;}
+.step.active {opacity: 1;}
+/*/* Mark the steps that are finished and valid: */
+.step.finish {background-color: #4CAF50;}
+----------------------------------------------------------------------------------------------------
+
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn {
+
+  background-color: #1dacfb;
+  padding: 8px 20px;
+  border-radius: 0px;
+  font-size: 20px;
+
+}
+.btn:hover, .btn:focus{background-color:#1dacfb;}
+
+.btn.fine{
+    position: relative;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+/*.upimg{width: 190px;height: 299px;margin-left: 42%;}
+/*..................................................................*/
+/*preview*/
+ .registration-preview h4{
+     background-color: #2A9DD6;
+     padding: 15px 11px;
+     color: #fff;
+     font-weight: 700;
+     margin: 0;
+ }
+ .rule{
+   padding: 15px 10px;
+   
+ }
+ .registration-preview .table > tbody > tr > td, .registration-preview .table > tbody > tr > th, .registration-preview .table > tfoot > tr > td, .registration-preview .table > tfoot > tr > th, .registration-preview .table > thead > tr > td, .registration-preview .table > thead > tr > th {
+   border-bottom: 1px solid #ddd;
+   border-top: 0;
+}
+.registration-preview .table > tbody > tr > td{width: 50%;}
+.registration-preview > div.row { border: solid 1px #2A9DD6;background: #fff;margin-top: 30px; }
+.registration-preview .preview-photo{width: 160px;height: 190px;}
+p.tag-photo{margin-top: 70px;}
+
+
+
+
+
+
+
+/*application form styles*/
+.application-ref-form{font-family: inherit !important;}
+.preference-buttons .btn-primary.active, .btn-primary:active, .open > .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #1DACFB;
+    border-color: #1DACFB;
+    box-shadow:none !important;
+}
+.preference-buttons .btn-primary input {
+    width: 10px;
+}
+.preference-buttons label{border-radius: 0; border: 0; background-color: #6f7070; margin-right: 20px;font-weight: 500;
+font-size: 16px;width: 200px; }
+.preference-buttons label:hover{ background-color: #2A9DD6 }
+.application-ref-form .fs-title {margin-bottom: 50px;text-decoration:underline;}
+.application-ref-form label{ position: relative;line-height: 15px; }
+.application-ref-form label.tick{line-height: 20px; }
+.application-ref-form label span{ font-size: 20px; color: red;position: absolute; }
+#same_residential_permanent{margin-left: -27px;width: 30px;}
+.mark_gather p {margin-top: 15px;}
+.mark_gather.table input[type="text"], .mark_gather.table select{margin-bottom: 0px !important}
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.permit-check{margin-top: 23px;}
+#permit_auth_check {
+    margin-left: -25px;
+    width: 30px;
+}
+#final_button p{ color: red; text-align: center; }  
+
+/*Edited by Ajosh */
+
+#preloader{
+ display:none;
+  background: rgba(255,255,255,0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999999;
+   
+}
+#preloader img {
+        margin-left: 50%;
+    left: -32px;
+    margin-top: -32px;
+    top: 50%;
+    position: relative;
+}
+.table_head_section{
+    background-color: #053667;
+    color: #f5f5f5;
+    border: 2px solid #2a9dd6;
+}
